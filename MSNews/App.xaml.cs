@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MSNews.Themes;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +16,7 @@ namespace MSNews
 
         protected override void OnStart()
         {
+            ThemeHelper.GetSystemRequestedTheme();
         }
 
         protected override void OnSleep()
