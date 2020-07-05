@@ -1,12 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Shell xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:views="clr-namespace:MSNews.Views.Pages"
-            xmlns:fontawesome="clr-namespace:FontAwesome"
-             mc:Ignorable="d"
-             x:Class="MSNews.AppShell">
+<Shell 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:fontawesome="clr-namespace:FontAwesome"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="clr-namespace:MSNews.Views.Pages"
+    Shell.BackgroundColor="{DynamicResource PageBackgroundColor}"
+    Shell.DisabledColor="{DynamicResource ShellDisabledColor}"
+    Shell.ForegroundColor="{DynamicResource ShellForegroundColor}"
+    Shell.NavBarHasShadow="False"
+    Shell.TabBarBackgroundColor="{DynamicResource ShellTabBarBackgroundColor}"
+    Shell.TabBarDisabledColor="{DynamicResource ShellTabBarDisabledColor}"
+    Shell.TabBarForegroundColor="{DynamicResource ShellTabBarForegroundColor}"
+    Shell.TabBarUnselectedColor="{DynamicResource ShellTabBarUnselectedColor}"
+    Shell.TitleColor="{DynamicResource ShellTitleColor}"
+    Shell.UnselectedColor="{DynamicResource ShellUnselectedColor}"
+    mc:Ignorable="d"
+    x:Class="MSNews.AppShell">
         
     <TabBar>
 

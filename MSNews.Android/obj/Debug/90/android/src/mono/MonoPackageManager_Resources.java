@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"MSNews.Android.dll",
 		"FormsViewGroup.dll",
 		"MSNews.dll",
+		"Plugin.CurrentActivity.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

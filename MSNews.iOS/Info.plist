@@ -10,6 +10,10 @@
         <string>fa-solid.otf</string>
         <string>fa-brands.otf</string>
     </array>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
     <key>UIDeviceFamily</key>
     <array>
         <integer>1</integer>

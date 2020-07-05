@@ -16,3 +16,6 @@ C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\ne
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Views\Pages\MainFeed.xaml.g.cs
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Views\Pages\MyInterests.xaml.g.cs
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Views\Pages\Settings.xaml.g.cs
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Themes\DarkTheme.xaml.g.cs
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Themes\Global.xaml.g.cs
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Themes\LightTheme.xaml.g.cs
