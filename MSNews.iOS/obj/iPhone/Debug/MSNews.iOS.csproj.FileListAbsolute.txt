@@ -57,3 +57,6 @@ C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.iOS\obj\iPho
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.iOS\obj\iPhone\Debug\MSNews.iOS.csproj.CopyComplete
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.iOS\obj\iPhone\Debug\MSNews.iOS.exe
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.iOS\obj\iPhone\Debug\MSNews.iOS.pdb
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.iOS\bin\iPhone\Debug\NewsAPI.dll
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.iOS\bin\iPhone\Debug\PSC.Xamarin.MvvmHelpers.dll

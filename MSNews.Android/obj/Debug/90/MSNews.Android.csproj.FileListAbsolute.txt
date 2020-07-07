@@ -494,3 +494,13 @@ C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\flata\B37FBC225372998F.flata
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\assets\Plugin.CurrentActivity.dll
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\src\crc64435a5ac349fa9fda\ActivityLifecycleContextListener.java
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\assets\NewsAPI.dll
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\assets\PSC.Xamarin.MvvmHelpers.dll
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\assets\System.Collections.dll
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\assets\System.Diagnostics.Debug.dll
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\assets\System.Net.Primitives.dll
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\assets\System.ObjectModel.dll
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\assets\System.Resources.ResourceManager.dll
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\assets\System.Threading.dll
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
