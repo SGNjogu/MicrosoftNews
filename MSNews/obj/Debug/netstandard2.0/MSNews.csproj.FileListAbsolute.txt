@@ -19,3 +19,4 @@ C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\ne
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Themes\LightTheme.xaml.g.cs
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\MSNews.csproj.CoreCompileInputs.cache
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\MSNews.csprojAssemblyReference.cache

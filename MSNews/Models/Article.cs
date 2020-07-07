@@ -1,8 +1,10 @@
-﻿using MSNews.Helpers;
-using Newtonsoft.Json;
+using MSNews.Helpers;
 using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.Text;
 
 namespace MSNews.Models
 {
