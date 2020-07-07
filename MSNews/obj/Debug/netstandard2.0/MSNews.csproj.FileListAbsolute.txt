@@ -5,8 +5,6 @@ C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\bin\Debug\ne
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\MSNews.AssemblyInfoInputs.cache
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\MSNews.AssemblyInfo.cs
-C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\MSNews.csproj.CoreCompileInputs.cache
-C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\MSNews.dll
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\ref\MSNews.dll
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\MSNews.pdb
@@ -19,3 +17,4 @@ C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\ne
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Themes\DarkTheme.xaml.g.cs
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Themes\Global.xaml.g.cs
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Themes\LightTheme.xaml.g.cs
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\MSNews.csprojAssemblyReference.cache
