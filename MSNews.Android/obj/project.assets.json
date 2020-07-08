@@ -2,6 +2,38 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
+      "CardsView/2.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/PanCardView.Droid.dll": {},
+          "lib/MonoAndroid10/PanCardView.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/PanCardView.Droid.dll": {},
+          "lib/MonoAndroid10/PanCardView.dll": {}
+        }
+      },
+      "NewsAPI/0.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/NewsAPI.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/NewsAPI.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Plugin.CurrentActivity/2.1.0.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -12,6 +44,18 @@
         },
         "runtime": {
           "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        }
+      },
+      "PSC.Xamarin.MvvmHelpers/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.2.0.45"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wp8+wpa81/PSC.Xamarin.MvvmHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/PSC.Xamarin.MvvmHelpers.dll": {}
         }
       },
       "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
@@ -795,10 +839,98 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
+      },
+      "MSNews/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CardsView": "2.6.2",
+          "NewsAPI": "0.5.0",
+          "Newtonsoft.Json": "12.0.3",
+          "PSC.Xamarin.MvvmHelpers": "1.0.0",
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.7.0.1080"
+        },
+        "compile": {
+          "bin/placeholder/MSNews.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MSNews.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "CardsView/2.6.2": {
+      "sha512": "2osbUU0SMLAgUCEh0qfuD6jXyhyy0gY9GsJVDR1D7dpCGxQ/KsMT/eW4bu0gLJUqIP7rqJfsV6l/zaglgziihg==",
+      "type": "package",
+      "path": "cardsview/2.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cardsview.2.6.2.nupkg.sha512",
+        "cardsview.nuspec",
+        "images/Cardsview-logotype-main.png",
+        "lib/MonoAndroid10/PanCardView.Droid.dll",
+        "lib/MonoAndroid10/PanCardView.dll",
+        "lib/Xamarin.Mac20/PanCardView.dll",
+        "lib/Xamarin.iOS10/PanCardView.dll",
+        "lib/Xamarin.iOS10/PanCardView.iOS.dll",
+        "lib/XamarinTVOS/PanCardView.dll",
+        "lib/net45/PanCardView.dll",
+        "lib/net46/PanCardView.dll",
+        "lib/netstandard1.0/PanCardView.dll",
+        "lib/netstandard2.0/PanCardView.dll",
+        "lib/tizen40/PanCardView.dll",
+        "lib/uap/PanCardView.dll",
+        "lib/win81/PanCardView.dll",
+        "lib/wpa81/PanCardView.dll"
+      ]
+    },
+    "NewsAPI/0.5.0": {
+      "sha512": "e2SIFfVa3CayeFKdGl6XD7Bmtcmom7LPmYA6gfI+sUOQtZxdcrbCBcejWqGxmrWHcBCM/jDcC/F3YE0pZZRryQ==",
+      "type": "package",
+      "path": "newsapi/0.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable45-net45+win8+wpa81/NewsAPI.XML",
+        "lib/portable45-net45+win8+wpa81/NewsAPI.dll",
+        "newsapi.0.5.0.nupkg.sha512",
+        "newsapi.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Plugin.CurrentActivity/2.1.0.4": {
       "sha512": "m8xaXvXUzBSqP6xRe5PeIG347WxsG/VWrZta7MnPpSvNuPf0RLB/S49UCCQyBKSsfu053+apvYm14BC7GU6Zzg==",
       "type": "package",
@@ -811,6 +943,18 @@
         "plugin.currentactivity.2.1.0.4.nupkg.sha512",
         "plugin.currentactivity.nuspec",
         "readme.txt"
+      ]
+    },
+    "PSC.Xamarin.MvvmHelpers/1.0.0": {
+      "sha512": "hMxeSwv1eqNynpkIdaUFYuzm4HCwVpdWMrh7X5BF81GPZsV2wF8/yGRbLEZhS4ANMOW3uFiOZDRO4OHGcknG8w==",
+      "type": "package",
+      "path": "psc.xamarin.mvvmhelpers/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable45-net45+win8+wp8+wpa81/PSC.Xamarin.MvvmHelpers.dll",
+        "psc.xamarin.mvvmhelpers.1.0.0.nupkg.sha512",
+        "psc.xamarin.mvvmhelpers.nuspec"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
@@ -1928,10 +2072,18 @@
         "xamarin.forms.4.7.0.1080.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "MSNews/1.0.0": {
+      "type": "project",
+      "path": "../MSNews/MSNews.csproj",
+      "msbuildProject": "../MSNews/MSNews.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
+      "CardsView >= 2.6.2",
+      "MSNews >= 1.0.0",
+      "Newtonsoft.Json >= 12.0.3",
       "Plugin.CurrentActivity >= 2.1.0.4",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.7.0.1080"
@@ -1968,13 +2120,25 @@
       },
       "frameworks": {
         "monoandroid90": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\SamuelNjogu\\Documents\\MyProjects\\Mobile Apps\\MSNews\\MSNews\\MSNews.csproj": {
+              "projectPath": "C:\\Users\\SamuelNjogu\\Documents\\MyProjects\\Mobile Apps\\MSNews\\MSNews\\MSNews.csproj"
+            }
+          }
         }
       }
     },
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
+          "CardsView": {
+            "target": "Package",
+            "version": "[2.6.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
           "Plugin.CurrentActivity": {
             "target": "Package",
             "version": "[2.1.0.4, )"
@@ -1990,13 +2154,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\SamuelNjogu\\Documents\\MyProjects\\Mobile Apps\\MSNews\\MSNews.Android\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
