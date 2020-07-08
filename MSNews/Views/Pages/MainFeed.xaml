@@ -1,27 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             Title="Main Feed"
-             mc:Ignorable="d"
-             BackgroundColor="{DynamicResource PageBackgroundColor}"
-             x:Class="MSNews.Views.Pages.MainFeed">
+<ContentPage
+    x:Class="MSNews.Views.Pages.MainFeed"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+    xmlns:controls="clr-namespace:MSNews.Controls"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Main Feed"
+    BackgroundColor="{DynamicResource ShellBackgroundColor}"
+    mc:Ignorable="d">
+
     <Shell.TitleView>
-        <Grid BackgroundColor="{DynamicResource PageBackgroundColor}">
+        <Grid BackgroundColor="{DynamicResource ShellBackgroundColor}">
             <Label
                 FontAttributes="Bold"
                 FontSize="18"
                 HorizontalOptions="Center"
-                Text="Main Feed"
+                Text="MAIN FEED"
                 VerticalOptions="Center" />
         </Grid>
     </Shell.TitleView>
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <Grid RowSpacing="0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <ScrollView
+                x:Name="scrollView"
+                Grid.Row="0"
+                HorizontalScrollBarVisibility="Never"
+                Orientation="Horizontal">
+
+                <controls:CarouselIndicatorView
+                    x:Name="carouselIndicator"
+                    CurrentItem="{Binding CurrentTab}"
+                    Items="{Binding TabItems}" />
+
+            </ScrollView>
+
+            <cards:CarouselView
+                x:Name="carouselView"
+                Grid.Row="1"
+                BackgroundColor="{DynamicResource PageBackgroundColor}"
+                IsVerticalSwipeEnabled="False"
+                ItemsSource="{Binding TabItems}"
+                SelectedItem="{Binding CurrentTab}"
+                SwipeThresholdDistance="50">
+                <cards:CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView>
+
+                            <Grid BackgroundColor="{DynamicResource PageBackgroundColor}" />
+
+                        </ContentView>
+                    </DataTemplate>
+                </cards:CarouselView.ItemTemplate>
+            </cards:CarouselView>
+
+        </Grid>
+
     </ContentPage.Content>
+
 </ContentPage>
