@@ -1,18 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "nFQtI20hw9Gd7aiGlpXg1eltav74BwFUtOyIB4zT612m0r0tui1rYccJI24SiSlf2iERpcRSBgWb1VATWC0EFA==",
+  "dgSpecHash": "3Z/szCrjSIKD5mbh/4MZS0n5isHvBHNVsdPZEznz//LDtLD7Ehy6AWI9EP5JrTEk94B+xT5MCmq6hYQruRLifQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\SamuelNjogu\\Documents\\MyProjects\\Mobile Apps\\MSNews\\MSNews.iOS\\MSNews.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SamuelNjogu\\.nuget\\packages\\cardsview\\2.6.2\\cardsview.2.6.2.nupkg.sha512",
+    "C:\\Users\\SamuelNjogu\\.nuget\\packages\\newsapi\\0.5.0\\newsapi.0.5.0.nupkg.sha512",
+    "C:\\Users\\SamuelNjogu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\SamuelNjogu\\.nuget\\packages\\psc.xamarin.mvvmhelpers\\1.0.0\\psc.xamarin.mvvmhelpers.1.0.0.nupkg.sha512",
     "C:\\Users\\SamuelNjogu\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\SamuelNjogu\\.nuget\\packages\\xamarin.forms\\4.7.0.1080\\xamarin.forms.4.7.0.1080.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\SamuelNjogu\\Documents\\MyProjects\\Mobile Apps\\MSNews\\MSNews.iOS\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using PanCardView.Droid;
 
 namespace MSNews.Droid
 {
@@ -24,6 +25,9 @@ namespace MSNews.Droid
 
             //Initialize cross current activity plugin
             Plugin.CurrentActivity.CrossCurrentActivity.Current.Init(this, savedInstanceState);
+
+            //Implement CardsView
+            CardsViewRenderer.Preserve();
 
             LoadApplication(new App());
         }

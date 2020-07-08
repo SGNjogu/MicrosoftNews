@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "h4i0SsBlBPZ6i5JZvvCirMVwVo3esKnlkF19iOztTbw1xnNJiDNW6woBaSopeGdXS6bvw3qDxeaJMEBFt+59Rg==",
-  "dgSpecHash": "+e+CQndpVfQ+NFvWEMf2k0G4gynCt+mwyeLXRgbcWZ8QDiXdGlNBNrTTuxcPzTJ8+w6vNQMB1UGRso5YaWIlLQ==",
+  "dgSpecHash": "U+YsKFY6k127AtKLMfeB6beyQXFl8ZovH60gxNFsqa+UuUgwuHc/Ap1WX77zglNr8VG/ITh0NNOYcbnqXH1udg==",
   "success": true,
   "projectFilePath": "C:\\Users\\SamuelNjogu\\Documents\\MyProjects\\Mobile Apps\\MSNews\\MSNews\\MSNews.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SamuelNjogu\\.nuget\\packages\\cardsview\\2.6.2\\cardsview.2.6.2.nupkg.sha512",
     "C:\\Users\\SamuelNjogu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\SamuelNjogu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\SamuelNjogu\\.nuget\\packages\\newsapi\\0.5.0\\newsapi.0.5.0.nupkg.sha512",

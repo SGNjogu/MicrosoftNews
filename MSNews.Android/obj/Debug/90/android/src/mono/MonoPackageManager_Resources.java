@@ -7,6 +7,8 @@ public class MonoPackageManager_Resources {
 		"MSNews.dll",
 		"NewsAPI.dll",
 		"Newtonsoft.Json.dll",
+		"PanCardView.dll",
+		"PanCardView.Droid.dll",
 		"Plugin.CurrentActivity.dll",
 		"PSC.Xamarin.MvvmHelpers.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
