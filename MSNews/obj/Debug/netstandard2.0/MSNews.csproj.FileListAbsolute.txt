@@ -18,5 +18,7 @@ C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\ne
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Themes\Global.xaml.g.cs
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Themes\LightTheme.xaml.g.cs
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Controls\CarouselIndicatorView.xaml.g.cs
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Views\Components\NewComponents\NewsView.xaml.g.cs
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Views\Components\NewComponents\WideNewsView.xaml.g.cs
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\MSNews.csproj.CoreCompileInputs.cache
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\XamlC.stamp
