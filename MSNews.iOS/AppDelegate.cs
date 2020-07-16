@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
+﻿
 using Foundation;
 using PanCardView.iOS;
 using UIKit;
@@ -28,6 +25,9 @@ namespace MSNews.iOS
 
             //Implement CardsView
             CardsViewRenderer.Preserve();
+
+            //Implement FFImageLoading
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
 
             return base.FinishedLaunching(app, options);
         }
