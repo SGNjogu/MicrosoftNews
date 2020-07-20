@@ -16,7 +16,7 @@ namespace MSNews.Views.Pages
             article = _article;
         }
 
-        protected async override void OnAppearing()
+        protected override void OnAppearing()
         {
             base.OnAppearing();
             webView.Source = article.Url;
