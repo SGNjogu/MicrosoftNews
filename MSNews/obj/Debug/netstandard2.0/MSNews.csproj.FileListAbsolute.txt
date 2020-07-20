@@ -24,3 +24,5 @@ C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\ne
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\MSNews.csprojAssemblyReference.cache
 C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Views\Pages\WebPage.xaml.g.cs
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Views\Components\InterestsComponents\Interest.xaml.g.cs
+C:\Users\SamuelNjogu\Documents\MyProjects\Mobile Apps\MSNews\MSNews\obj\Debug\netstandard2.0\Views\Pages\InterestArticles.xaml.g.cs
