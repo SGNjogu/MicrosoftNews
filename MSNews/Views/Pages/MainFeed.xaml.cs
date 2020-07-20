@@ -29,5 +29,12 @@ namespace MSNews.Views.Pages
               );
             });
         }
+
+        private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var tapped = e.Item as Models.Article;
+
+            await Navigation.PushAsync(new WebPage(tapped));
+        }
     }
 }
