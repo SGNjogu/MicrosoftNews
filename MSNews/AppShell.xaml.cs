@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
+using MSNews.Views.Pages;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +11,11 @@ namespace MSNews
         public AppShell()
         {
             InitializeComponent();
+            RegisterRoutes();
+        }
+        public static void RegisterRoutes()
+        {
+            Routing.RegisterRoute("webpage", typeof(WebPage));
         }
     }
 }
